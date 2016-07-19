@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rueda: MyString
+  size: 1
+  description: MyText
+
+two:
+  rueda: MyString
+  size: 1
+  description: MyText
