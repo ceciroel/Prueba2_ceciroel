@@ -9,7 +9,11 @@ class OperationTest < ActiveSupport::TestCase
 
 
    test "validar nombre" do
-  
-    assert_not_empty Worker.where(:id => @workerCarlos.worker_id), "El nombre de usuario no se ingreso"
+  	if 
+  		assert_equal Operations.where(:id => @operationsRepair.operationss_id), "La operacion fue Repair"
+  	else
+  		puts worker_id
+  	end
+    
   end
 end

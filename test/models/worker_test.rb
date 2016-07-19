@@ -8,7 +8,7 @@ class WorkerTest < ActiveSupport::TestCase
   end
 
 
-   test "validar nombre" do
+   test "validar operacion" do
   
     assert_not_empty Worker.where(:id => @workerCarlos.worker_id), "El nombre de usuario no se ingreso"
   end

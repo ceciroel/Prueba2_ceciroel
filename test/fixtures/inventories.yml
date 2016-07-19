@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  rueda: MyString
+  rueda: Michelin
   size: 1
-  description: MyText
+  description: chica
 
 two:
-  rueda: MyString
-  size: 1
-  description: MyText
+  rueda: Pirelli
+  size: 10
+  description: grande
