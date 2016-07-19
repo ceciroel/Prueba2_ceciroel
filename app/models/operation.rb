@@ -1,6 +1,6 @@
 class Operation < ActiveRecord::Base
-	has_many :workers
-	has_many :ruedas
+	has_many :workers, dependent: :destroy
+	has_many :ruedas, dependent: :destroy
 	has_many :inventorys
 	
 	belongs_to :inventory
